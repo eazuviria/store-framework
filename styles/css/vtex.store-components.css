@@ -1,15 +1,17 @@
-.infoCardContainer--vintage {
-    background-color: #EDCFD1
-}
-.infoCardContainer--metal {
-    background-color: #e1e1e1
-}
-
 .infoCardContainer{
     max-width: 1260px;
     margin: 0 auto;
     padding: 0;
 }
+
+.infoCardContainer--vintage {
+    background-color: #EDCFD1
+}
+
+.infoCardContainer--metal {
+    background-color: white
+}
+
 .infoCardHeadline {
     font-family: serif;
     font-size: 2.25rem;
@@ -26,18 +28,6 @@
 }
 
 .infoCardCallActionContainer :global(.vtex-button):hover {
-    color: gray;
-    background-color: white;
-    border: transparent;
-}
-
-.infoCardCallActionContainer--vintage :global(.vtex-button) {
-    color: white;
-    background-color: gray;
-    border: transparent;
-}
-
-.infoCardCallActionContainer--vintage :global(.vtex-button):hover {
     color: gray;
     background-color: white;
     border: transparent;
