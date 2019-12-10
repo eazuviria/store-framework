@@ -1,0 +1,28 @@
+{
+    "store.custom#landing": { 
+      "blocks": [
+        "image#landingbanner", 
+        "search-result-layout.customQuery#landing"
+      ]
+    },
+    "image#landingbanner":{
+        "props":{
+            "src":"https://cdnmd.lavoz.com.ar/sites/default/files/styles/width_1072/public/nota_periodistica/aaaj_1575896992.jpg",
+            "maxWidth": "100%"
+        }
+    },
+    "search-result-layout.customQuery#landing":{
+        "blocks": [
+            "search-result-layout.desktop"
+        ],
+        "props":{
+            "querySchema":{
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 8,
+                "queryField": "Blue Top Retro Camera",
+                "mapField": "ft"
+            }
+        }
+    }
+  }
